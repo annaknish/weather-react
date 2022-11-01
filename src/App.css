@@ -30,3 +30,10 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+  text-align: center;
+  margin-left: 200px;
+}

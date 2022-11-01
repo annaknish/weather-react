@@ -2,12 +2,19 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Weather from "./Weather";
 import reportWebVitals from "./reportWebVitals";
+import "./App.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="App">
       <Weather />
+      <small>
+        <a href="https://github.com/annaknish/weather-react" target="_blank">
+          Open-source code
+        </a>
+        , by Anna Knysh
+      </small>
     </div>
   </React.StrictMode>
 );
