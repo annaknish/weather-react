@@ -10,7 +10,7 @@ root.render(
     <div className="App">
       <Weather />
       <small>
-        <a href="https://github.com/annaknish/weather-react" target="_blank">
+        <a href="https://github.com/annaknish/weather-react">
           Open-source code
         </a>
         , by Anna Knysh
